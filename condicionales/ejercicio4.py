@@ -1,0 +1,1 @@
+se imprime hola cuando a vale 0 para el resto de los valores se imprimre chau
