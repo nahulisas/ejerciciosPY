@@ -9,8 +9,6 @@ contador = 1
 while contador <= n:
     if n % contador ==0:
         suma = suma + contador
-        contador += 1
-    else:
-        contador += 1
+    contador += 1
 print(suma)
 
