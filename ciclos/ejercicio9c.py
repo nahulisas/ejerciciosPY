@@ -1,9 +1,11 @@
-n=int(input('eliga un numero: '))
-suma = 0
-contador = 1
+#Hacer un programa que permita al usuario elegir un número positivo n y luego muestre en pantalla la cantidad de divisores de n.
 
-while contador <= n:
-    if n % contador == 0:
-        suma = suma + 1
-    contador += 1
-print('el numero ',n,' tiene ',suma,' divisores')
+num = int(input('eliga un numero: '))
+cant_divisores = 0
+i = 1
+while i <= num:
+    if num % i == 0:
+        cant_divisores += 1
+    i += 1
+
+print(f"El numero {num} tiene {cant_divisores} divisores")
