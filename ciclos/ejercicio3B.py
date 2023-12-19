@@ -8,7 +8,8 @@ for i in range (x + 1,x + 6):
 
 #FIXME: Se deben imprimir los 5 numeros que le sigen a n, sin incluir n. Es decir que si elijo 14, deberian imprimirse del 15 al 19, no del 14 al 19
 aux = x
-while x <= aux + 5:
-    print(x)
+while x < aux + 5:
     x += 1
+    print(x)
+    
     
